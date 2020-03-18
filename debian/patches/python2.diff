@@ -1,0 +1,20 @@
+Index: b/src/setup.py
+===================================================================
+--- a/src/setup.py
++++ b/src/setup.py
+@@ -1,4 +1,4 @@
+-#!/usr/bin/python -W default
++#!/usr/bin/python2 -W default
+ import warnings; warnings.simplefilter('default')
+ 
+ import distutils.sysconfig
+Index: b/src/test.py
+===================================================================
+--- a/src/test.py
++++ b/src/test.py
+@@ -1,4 +1,4 @@
+-#!/usr/bin/python -W default
++#!/usr/bin/python2 -W default
+ #
+ # This is the test script for libpython-pam.  There aren't many stones
+ # left unturned.
